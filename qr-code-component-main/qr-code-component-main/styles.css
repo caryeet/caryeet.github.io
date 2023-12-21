@@ -5,3 +5,41 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+body {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-card {
+    background-color: hsl(0, 0%, 100%);
+    width: 420px;
+    border-radius: 12px;
+    margin: 100px auto;
+    height: 600px;
+    position: relative;
+}
+
+.qr-card img {
+    width: 90%;
+    border-radius: 12px;
+    margin: 21px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    color: hsl(220, 15%, 55%)
+}
+
+@media screen and (min-width: 375px;) and (max-width: 768px;) {
+    .qr-card {
+        width: 340px;
+    }
+}
