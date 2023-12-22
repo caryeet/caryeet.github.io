@@ -37,7 +37,7 @@ p {
     color: hsl(220, 15%, 55%)
 }
 
-@media screen and (min-width: 375px;) and (max-width: 768px;) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
     .qr-card {
         width: 340px;
     }
